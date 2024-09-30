@@ -5,19 +5,17 @@ using Microsoft.Extensions.DependencyInjection;
 using MetroFibre.Data.Contexts;
 using MetroFibre.Data.Interfaces;
 using MetroFibre.Data.Repositories;
-using MetroFibre.Service.Services;
 using MetroFibre.Service.Interfaces;
+using MetroFibre.Service.Services;
 
 namespace MetroFibre;
 
 internal class Program
 {
-    private const string Assembly = "MetroFibre.Data";
 
     static async Task Main(string[] args)
     {
         var services = CreateServices();
-
         var recipeService = services.GetRequiredService<IRecipeService>();
 
         await recipeService.BestCombinationOfRecipes();
@@ -41,8 +39,6 @@ internal class Program
             .AddScoped<IIngredientRepository, IngredientRepository>()
             .AddScoped<IRecipeService, RecipeService>()
             .BuildServiceProvider();
-
-        //serviceProvider.SetupContexts(configuration);
 
         return serviceProvider;
     }

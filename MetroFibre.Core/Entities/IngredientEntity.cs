@@ -1,10 +1,8 @@
-﻿namespace MetroFibre.Core.Entities;
+﻿using MetroFibre.Core.Bases;
 
-public sealed class IngredientEntity
+namespace MetroFibre.Core.Entities;
+
+public sealed class IngredientEntity : BaseIngredient
 {
-    public Guid Id { get; set; }
-    public string Name { get; set; } = null!;
-    public int Quantity { get; set; }
-
     public List<RecipeIngredientEntity> RecipeIngredients { get; set; } = null!;
 }

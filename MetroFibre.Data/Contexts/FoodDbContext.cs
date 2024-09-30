@@ -2,7 +2,6 @@
 
 using MetroFibre.Core.Entities;
 using MetroFibre.Data.Seeds;
-using Microsoft.Extensions.Options;
 
 namespace MetroFibre.Data.Contexts;
 
@@ -22,8 +21,8 @@ public class FoodDbContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlServer("server=.\\MSSQLSERVER01;Database=FoodDb;Trusted_Connection=True;Encrypt=false;");
-        //base.OnConfiguring(optionsBuilder);
+        //NOTE: Use this to migrate if needed.
+        //optionsBuilder.UseSqlServer("server=.\\MSSQLSERVER01;Database=FoodDb;Trusted_Connection=True;Encrypt=false;");
     }
 
     public FoodDbContext() { }

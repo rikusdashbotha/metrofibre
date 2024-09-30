@@ -1,6 +1,7 @@
-﻿using MetroFibre.Core.Constants;
+﻿using Microsoft.EntityFrameworkCore;
+
+using MetroFibre.Core.Constants;
 using MetroFibre.Core.Entities;
-using Microsoft.EntityFrameworkCore;
 
 namespace MetroFibre.Data.Seeds;
 

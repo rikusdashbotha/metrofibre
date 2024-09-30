@@ -1,5 +1,4 @@
-﻿
-namespace MetroFibre.Service.Interfaces;
+﻿namespace MetroFibre.Service.Interfaces;
 
 public interface IRecipeService
 {
