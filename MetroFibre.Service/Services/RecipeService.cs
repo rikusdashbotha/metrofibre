@@ -124,15 +124,31 @@ public class RecipeService : IRecipeService
 
     #region Private Methods
 
+    /// <summary>
+    /// Returns a "power set" (i.e. Cartesian Product) of all elements (recipes) in the list.
+    /// https://rosettacode.org/wiki/Power_set#C.23
+    /// </summary>
+    /// <typeparam name="T"></typeparam>
+    /// <param name="list">The list of elements (e.g. recipes)</param>
+    /// <returns>A list of all (singular) possible element (e.g.recipe) combinations.</returns>
     private IEnumerable<IEnumerable<T>> GetPowerSet<T>(List<T> list)
     {
-        return from m in Enumerable.Range(0, 1 << list.Count)
+        //Do bit-shift operation
+        return from m in Enumerable.Range(0, 1 << list.Count) //Generates all numbers from 0 to 2^N-1
                select
                    from i in Enumerable.Range(0, list.Count)
-                   where (m & (1 << i)) != 0
+                   where (m & (1 << i)) != 0 //Shift active bit to left to include the element at index i if bit is TRUE in position of m
                    select list[i];
     }
 
+    /// <summary>
+    /// Attempt to build out (multiple) permutations per set of elements (e.g. recipes).
+    /// e.g. 3 x Burger & 2 x Pasta
+    /// </summary>
+    /// <typeparam name="T"></typeparam>
+    /// <param name="list">The list of elements (e.g. recipes)</param>
+    /// <param name="maxRepeat">Recursion count per element (recipe) i.e. max 3 x Burger recipe entries per permutation.</param>
+    /// <returns>A list of all (multiple) possible element (e.g.recipe) combinations.</returns>
     private IEnumerable<List<T>> GetCombinationPermutations<T>(List<T> list, int maxRepeat)
     {
         var results = new List<List<T>>();
@@ -154,15 +170,15 @@ public class RecipeService : IRecipeService
                     currentCombination.Add(list[index]);
                 }
 
-                // Recursively build combinations with the rest of the recipes
+                //Recursively build combinations with the rest of the recipes
                 BuildCombinations(currentCombination, index + 1);
 
-                // Remove the added recipes to backtrack for the next combination
+                //Remove the added recipes to backtrack for the next combination
                 currentCombination.RemoveRange(currentCombination.Count - count, count);
             }
         }
 
-        // Start the recursive process
+        //Start the recursive process
         BuildCombinations(new List<T>(), 0);
 
         return results;
