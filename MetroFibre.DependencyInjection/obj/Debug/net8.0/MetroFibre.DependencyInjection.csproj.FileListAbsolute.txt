@@ -1,0 +1,17 @@
+G:\External Activities\Dev\Auxiliary\MetroFibre\MetroFibre\MetroFibre.DependencyInjection\bin\Debug\net8.0\MetroFibre.DependencyInjection.deps.json
+G:\External Activities\Dev\Auxiliary\MetroFibre\MetroFibre\MetroFibre.DependencyInjection\bin\Debug\net8.0\MetroFibre.DependencyInjection.dll
+G:\External Activities\Dev\Auxiliary\MetroFibre\MetroFibre\MetroFibre.DependencyInjection\bin\Debug\net8.0\MetroFibre.DependencyInjection.pdb
+G:\External Activities\Dev\Auxiliary\MetroFibre\MetroFibre\MetroFibre.DependencyInjection\bin\Debug\net8.0\MetroFibre.Core.dll
+G:\External Activities\Dev\Auxiliary\MetroFibre\MetroFibre\MetroFibre.DependencyInjection\bin\Debug\net8.0\MetroFibre.Data.dll
+G:\External Activities\Dev\Auxiliary\MetroFibre\MetroFibre\MetroFibre.DependencyInjection\bin\Debug\net8.0\MetroFibre.Data.pdb
+G:\External Activities\Dev\Auxiliary\MetroFibre\MetroFibre\MetroFibre.DependencyInjection\bin\Debug\net8.0\MetroFibre.Core.pdb
+G:\External Activities\Dev\Auxiliary\MetroFibre\MetroFibre\MetroFibre.DependencyInjection\obj\Debug\net8.0\MetroFibre.DependencyInjection.csproj.AssemblyReference.cache
+G:\External Activities\Dev\Auxiliary\MetroFibre\MetroFibre\MetroFibre.DependencyInjection\obj\Debug\net8.0\MetroFibre.DependencyInjection.GeneratedMSBuildEditorConfig.editorconfig
+G:\External Activities\Dev\Auxiliary\MetroFibre\MetroFibre\MetroFibre.DependencyInjection\obj\Debug\net8.0\MetroFibre.DependencyInjection.AssemblyInfoInputs.cache
+G:\External Activities\Dev\Auxiliary\MetroFibre\MetroFibre\MetroFibre.DependencyInjection\obj\Debug\net8.0\MetroFibre.DependencyInjection.AssemblyInfo.cs
+G:\External Activities\Dev\Auxiliary\MetroFibre\MetroFibre\MetroFibre.DependencyInjection\obj\Debug\net8.0\MetroFibre.DependencyInjection.csproj.CoreCompileInputs.cache
+G:\External Activities\Dev\Auxiliary\MetroFibre\MetroFibre\MetroFibre.DependencyInjection\obj\Debug\net8.0\MetroFibre.DependencyInjection.csproj.CopyComplete
+G:\External Activities\Dev\Auxiliary\MetroFibre\MetroFibre\MetroFibre.DependencyInjection\obj\Debug\net8.0\MetroFibre.DependencyInjection.dll
+G:\External Activities\Dev\Auxiliary\MetroFibre\MetroFibre\MetroFibre.DependencyInjection\obj\Debug\net8.0\refint\MetroFibre.DependencyInjection.dll
+G:\External Activities\Dev\Auxiliary\MetroFibre\MetroFibre\MetroFibre.DependencyInjection\obj\Debug\net8.0\MetroFibre.DependencyInjection.pdb
+G:\External Activities\Dev\Auxiliary\MetroFibre\MetroFibre\MetroFibre.DependencyInjection\obj\Debug\net8.0\ref\MetroFibre.DependencyInjection.dll

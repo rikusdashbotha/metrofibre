@@ -1,0 +1,17 @@
+G:\External Activities\Dev\Auxiliary\MetroFibre\MetroFibre\MetroFibre.Service\bin\Debug\net8.0\MetroFibre.Service.deps.json
+G:\External Activities\Dev\Auxiliary\MetroFibre\MetroFibre\MetroFibre.Service\bin\Debug\net8.0\MetroFibre.Service.dll
+G:\External Activities\Dev\Auxiliary\MetroFibre\MetroFibre\MetroFibre.Service\bin\Debug\net8.0\MetroFibre.Service.pdb
+G:\External Activities\Dev\Auxiliary\MetroFibre\MetroFibre\MetroFibre.Service\bin\Debug\net8.0\MetroFibre.Core.dll
+G:\External Activities\Dev\Auxiliary\MetroFibre\MetroFibre\MetroFibre.Service\bin\Debug\net8.0\MetroFibre.Data.dll
+G:\External Activities\Dev\Auxiliary\MetroFibre\MetroFibre\MetroFibre.Service\bin\Debug\net8.0\MetroFibre.Data.pdb
+G:\External Activities\Dev\Auxiliary\MetroFibre\MetroFibre\MetroFibre.Service\bin\Debug\net8.0\MetroFibre.Core.pdb
+G:\External Activities\Dev\Auxiliary\MetroFibre\MetroFibre\MetroFibre.Service\obj\Debug\net8.0\MetroFibre.Service.csproj.AssemblyReference.cache
+G:\External Activities\Dev\Auxiliary\MetroFibre\MetroFibre\MetroFibre.Service\obj\Debug\net8.0\MetroFibre.Service.GeneratedMSBuildEditorConfig.editorconfig
+G:\External Activities\Dev\Auxiliary\MetroFibre\MetroFibre\MetroFibre.Service\obj\Debug\net8.0\MetroFibre.Service.AssemblyInfoInputs.cache
+G:\External Activities\Dev\Auxiliary\MetroFibre\MetroFibre\MetroFibre.Service\obj\Debug\net8.0\MetroFibre.Service.AssemblyInfo.cs
+G:\External Activities\Dev\Auxiliary\MetroFibre\MetroFibre\MetroFibre.Service\obj\Debug\net8.0\MetroFibre.Service.csproj.CoreCompileInputs.cache
+G:\External Activities\Dev\Auxiliary\MetroFibre\MetroFibre\MetroFibre.Service\obj\Debug\net8.0\MetroFibre.Service.csproj.CopyComplete
+G:\External Activities\Dev\Auxiliary\MetroFibre\MetroFibre\MetroFibre.Service\obj\Debug\net8.0\MetroFibre.Service.dll
+G:\External Activities\Dev\Auxiliary\MetroFibre\MetroFibre\MetroFibre.Service\obj\Debug\net8.0\refint\MetroFibre.Service.dll
+G:\External Activities\Dev\Auxiliary\MetroFibre\MetroFibre\MetroFibre.Service\obj\Debug\net8.0\MetroFibre.Service.pdb
+G:\External Activities\Dev\Auxiliary\MetroFibre\MetroFibre\MetroFibre.Service\obj\Debug\net8.0\ref\MetroFibre.Service.dll

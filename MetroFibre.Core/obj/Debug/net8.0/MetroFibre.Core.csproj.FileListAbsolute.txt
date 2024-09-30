@@ -1,0 +1,11 @@
+G:\External Activities\Dev\Auxiliary\MetroFibre\MetroFibre\MetroFibre.Core\bin\Debug\net8.0\MetroFibre.Core.deps.json
+G:\External Activities\Dev\Auxiliary\MetroFibre\MetroFibre\MetroFibre.Core\bin\Debug\net8.0\MetroFibre.Core.dll
+G:\External Activities\Dev\Auxiliary\MetroFibre\MetroFibre\MetroFibre.Core\bin\Debug\net8.0\MetroFibre.Core.pdb
+G:\External Activities\Dev\Auxiliary\MetroFibre\MetroFibre\MetroFibre.Core\obj\Debug\net8.0\MetroFibre.Core.GeneratedMSBuildEditorConfig.editorconfig
+G:\External Activities\Dev\Auxiliary\MetroFibre\MetroFibre\MetroFibre.Core\obj\Debug\net8.0\MetroFibre.Core.AssemblyInfoInputs.cache
+G:\External Activities\Dev\Auxiliary\MetroFibre\MetroFibre\MetroFibre.Core\obj\Debug\net8.0\MetroFibre.Core.AssemblyInfo.cs
+G:\External Activities\Dev\Auxiliary\MetroFibre\MetroFibre\MetroFibre.Core\obj\Debug\net8.0\MetroFibre.Core.csproj.CoreCompileInputs.cache
+G:\External Activities\Dev\Auxiliary\MetroFibre\MetroFibre\MetroFibre.Core\obj\Debug\net8.0\MetroFibre.Core.dll
+G:\External Activities\Dev\Auxiliary\MetroFibre\MetroFibre\MetroFibre.Core\obj\Debug\net8.0\refint\MetroFibre.Core.dll
+G:\External Activities\Dev\Auxiliary\MetroFibre\MetroFibre\MetroFibre.Core\obj\Debug\net8.0\MetroFibre.Core.pdb
+G:\External Activities\Dev\Auxiliary\MetroFibre\MetroFibre\MetroFibre.Core\obj\Debug\net8.0\ref\MetroFibre.Core.dll
