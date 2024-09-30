@@ -1,4 +1,5 @@
-﻿using MetroFibre.Core.Entities;
+﻿using MetroFibre.Core.Bases;
+using MetroFibre.Core.Entities;
 
 namespace MetroFibre.Core.Dtos;
 

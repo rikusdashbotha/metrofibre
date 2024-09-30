@@ -5,6 +5,8 @@ namespace MetroFibre.Core.Dtos;
 
 public class RecipeDto
 {
+    #region Properties
+
     public Guid Id { get; set; }
     public string Name { get; set; } = string.Empty;
     public List<RecipeIngredientDto>? RecipeIngredients { get; set; } = null!;
@@ -12,12 +14,14 @@ public class RecipeDto
     public int Feeds { get; set; }
     public int FeedYield { get { return RecipeYield * Feeds; } private set { } }
 
+    #endregion Properties
+
     #region Public Methods
 
     /// <summary>
     /// Given some ingredients, determines how many times this recipe can be made.
     /// </summary>
-    /// <param name="availableIngredients"></param>
+    /// <param name="availableIngredients">The ingredients which will be consumed by this recipe.</param>
     public void DetermineYield(List<IngredientDto> availableIngredients, bool useAllIngredients = false)
     {
         while (CanProduceRecipe(availableIngredients))
@@ -29,6 +33,10 @@ public class RecipeDto
         }
     }
 
+    /// <summary>
+    /// Provides a Deep Copy of the instance.
+    /// </summary>
+    /// <returns>A Deep(i.e. true) Copy of the instance.</returns>
     public RecipeDto Copy()
     {
         return new RecipeDto
@@ -46,8 +54,17 @@ public class RecipeDto
 
     #region Private Methods
 
+    /// <summary>
+    /// Builds out the recipe as long as enough ingredients are supplied.
+    /// Deducts the consumed resources.
+    /// </summary>
+    /// <param name="availableIngredients">The ingredients which will be consumed by this recipe.</param>
+    /// <returns>Returns True if this recipe could indeed be created. </returns>
     private bool CanProduceRecipe(List<IngredientDto> availableIngredients)
     {
+        if (RecipeIngredients is null || RecipeIngredients.Count == 0)
+            return false;
+
         foreach (var recipeIngredient in RecipeIngredients)
         {
             //Find matching available ingredient
@@ -58,7 +75,8 @@ public class RecipeDto
                 || selectedIngredient.AmountAvailable < recipeIngredient.RequiredAmount)
             {
                 //Ingredient and/or quantity of ingredient unavailable
-                return false;
+                //TODO hang on! So you've built a recipe and at 99% you run out of ingredients. Those are consumed and ought to be reversed if we consider the whole "what's left" scenario
+                return false; 
             }
 
             selectedIngredient.AmountAvailable -= recipeIngredient.RequiredAmount;

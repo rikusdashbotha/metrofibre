@@ -2,12 +2,12 @@
 
 namespace MetroFibre.Core.Dtos;
 
-public sealed class RecipeIngredientDto()// : BaseIngredient //Consider not using base Ingredient. SOLID violation on Name
+public sealed class RecipeIngredientDto()
 {
     public Guid Id { get; set; }
     public Guid RecipeId { get; set; }
     public Guid IngredientId { get; set; }
-    public int RequiredAmount { get; set; } //{ get { return base.Quantity; } set { } }
+    public int RequiredAmount { get; set; }
 
     #region Implicit Operators
 
