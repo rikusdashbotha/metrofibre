@@ -31,6 +31,7 @@ bin/
 obj/
 log/
 logs/
+.vs/MetroFibre/v17/.suo
 
 # Visual Studio 2015/2017 cache/options directory
 .vs/
@@ -396,5 +397,4 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
-.vs/MetroFibre/v17/.suo
-.vs/MetroFibre/v17/.suo
+
